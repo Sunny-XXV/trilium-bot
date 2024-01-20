@@ -1,0 +1,11 @@
+
+[project]
+# PEP 621 project metadata
+# See https://www.python.org/dev/peps/pep-0621/
+dependencies = [
+    "pyTelegramBotAPI",
+    "loguru",
+    "trilium-py==0.8.5",
+    "schedule>=1.2.1",
+]
+requires-python = ">=3.11"
